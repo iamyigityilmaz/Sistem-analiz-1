@@ -10,10 +10,10 @@ def custom_hist(gray): #gri resimleri görselleştirmek için kullanılır
             hist[pv] += 1
 
     y_pos = np.arange(0,256,1, dtype=np.uint32)
-    plt.bar(y_pos,hist,align="center",color="r",alpha=0.5)
-    plt.xticks(y_pos,y_pos)
-    plt.ylabel("Frequency")
-    plt.title("Histogram")
+    plt.bar(y_pos,hist,align="center",color="r",alpha=0.5)#x konumlarına çubukları çizer; color/alpha/width ile görünümü ayarlar
+    plt.xticks(y_pos,y_pos)#x ekseni tik konum ve etiketlerini ayarlar (seyrekleştirmek okunaklıdır).
+    plt.ylabel("Frequency") #y ekseni etiketini belirler.
+    plt.title("Histogram")# grafik başlığını belirler.
 
 def image_hist(image):#renli görseler için histogram oluşyurma
     cv.imshow("image",image)

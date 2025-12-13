@@ -4,18 +4,18 @@ from matplotlib import pyplot as plt
 
 def custom_hist(gray): #gri resimleri görselleştirmek için kullanılır
     h,w = gray.shape
-    hist = np.zeros([256], dtype=np.uint32)
+    hist = np.zeros([256], dtype=np.uint32) #: 0–255 arası her ton için sayaç (histogram) oluşturur.
     for row in range(h):
         for col in range(w):
             pv = gray[row][col]
             hist[pv] += 1
 
-    y_pos = np.arange(0,256,1, dtype=np.uint32)
-    plt.bar(y_pos,hist,align="center",color="r",alpha=0.5)
-    plt.xticks(y_pos,y_pos)
-    plt.ylabel("Frequency")
-    plt.title("Histogram")
-    plt.show()
+    y_pos = np.arange(0,256,1, dtype=np.uint32) #X-ekseni için 0–255 arası pozisyonlar.
+    plt.bar(y_pos,hist,align="center",color="r",alpha=0.5) #x konumlarına çubukları çizer; color/alpha/width ile görünümü ayarlar
+    plt.xticks(y_pos,y_pos) #x ekseni tik konum ve etiketlerini ayarlar (seyrekleştirmek okunaklıdır).
+    plt.ylabel("Frequency")  #y ekseni etiketini belirler.
+    plt.title("Histogram") # grafik başlığını belirler.
+    plt.show()#grafiği ekranda gösterir
 
 src = cv.imread("C:/Users/yigit/Desktop/python/Opencv301/03_OPENCVDE_GORUNTU_ISLEME/05_HISTOGRAM_EQUALIZATION/img.png")
 gray = cv.cvtColor(src,cv.COLOR_BGR2GRAY)

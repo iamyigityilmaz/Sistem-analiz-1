@@ -24,7 +24,7 @@ def image_hist(image):#renli görseler için histogram oluşyurma
         plt.xlim([0,256])
     plt.show()
 
-src = cv.imread("C:/Users/yigit/Desktop/python/Opencv301/03_OPENCVDE_GORUNTU_ISLEME/04_IMAGE_HISTOGRAM/img.png")
+src = cv.imread("C:/Users/yigit/Desktop/Ders/python/Opencv301/03_OPENCVDE_GORUNTU_ISLEME/04_IMAGE_HISTOGRAM/img.png")
 cv.imshow("input",src)
 cv.waitKey(0)
 

@@ -17,7 +17,7 @@ def custom_hist(gray): #gri resimleri görselleştirmek için kullanılır
     plt.title("Histogram") # grafik başlığını belirler.
     plt.show()#grafiği ekranda gösterir
 
-src = cv.imread("C:/Users/yigit/Desktop/python/Opencv301/03_OPENCVDE_GORUNTU_ISLEME/05_HISTOGRAM_EQUALIZATION/img.png")
+src = cv.imread("C:/Users/yigit/Desktop/Ders/python/Opencv301/03_OPENCVDE_GORUNTU_ISLEME/05_HISTOGRAM_EQUALIZATION/img.png")
 gray = cv.cvtColor(src,cv.COLOR_BGR2GRAY)
 cv.imshow("input",gray)
 cv.waitKey(0)

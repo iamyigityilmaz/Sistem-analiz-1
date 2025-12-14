@@ -3,7 +3,7 @@ import numpy as np
 
 #shifting(kaydırma)
 
-img = cv.imread("C:/Users/yigit/Desktop/python/Opencv301/03_OPENCVDE_GORUNTU_ISLEME/02_GEOMETRIK_DONUSUMLER/opencv.png")
+img = cv.imread("C:/Users/yigit/Desktop/Ders/python/Opencv301/03_OPENCVDE_GORUNTU_ISLEME/02_GEOMETRIK_DONUSUMLER/opencv.png")
 
 rows = img.shape[0]#satırların bilgisi
 cols = img.shape[1]#sütınşarom bilgisi

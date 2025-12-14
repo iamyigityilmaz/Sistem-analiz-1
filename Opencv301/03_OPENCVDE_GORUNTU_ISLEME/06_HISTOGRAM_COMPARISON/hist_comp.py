@@ -14,7 +14,7 @@ print(hsv3)
 
 #calcHist
 hist1 = cv.calcHist([hsv1], [0,1], None, [60,64], [0, 180, 0,256]) #resimler,histogramları hesaplamak için gerekli olan kanallar,
-hist2 = cv.calcHist([hsv2], [0,1], None, [60,64], [0, 180, 0,256])#taslak olmadığı için none, histogramların boyutları, range(aralıklar)
+hist2 = cv.calcHist([hsv2], [0,1], None, [60,64], [0, 180, 0,256]) #taslak olmadığı için none, histogramların boyutları, range(aralıklar)
 hist3 = cv.calcHist([hsv3], [0,1], None, [60,64], [0, 180, 0,256])
 print(hist1)
 print(hist2)
@@ -24,7 +24,6 @@ print(hist3)
 cv.normalize(hist1, hist1, 0, 1, cv.NORM_MINMAX)
 cv.normalize(hist2, hist2, 0, 1, cv.NORM_MINMAX)
 cv.normalize(hist3, hist3, 0, 1, cv.NORM_MINMAX)
-
 
 #compareHist
 

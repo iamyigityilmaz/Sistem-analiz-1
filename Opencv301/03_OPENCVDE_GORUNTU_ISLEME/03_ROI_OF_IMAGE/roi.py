@@ -2,7 +2,7 @@
 import cv2 as cv
 import numpy as np
 
-src = cv.imread("C:/Users/yigit/Desktop/python/Opencv301/03_OPENCVDE_GORUNTU_ISLEME/03_ROI_OF_IMAGE/akdeniz.jpg")
+src = cv.imread("C:/Users/yigit/Desktop/Ders/python/Opencv301/03_OPENCVDE_GORUNTU_ISLEME/03_ROI_OF_IMAGE/akdeniz.jpg")
 
 h,w = src.shape[:2]
 

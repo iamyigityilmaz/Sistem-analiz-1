@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-path = "C:/Users/yigit/Desktop/python/02_BASIC_OPERATIONS/01_BASIC_OPERATIONS/05_MERGING_TWO_IMAGES/"
+path = "C:/Users/yigit/Desktop/Ders/python/Opencv201/02_BASIC_OPERATIONS/01_BASIC_OPERATIONS/05_MERGING_TWO_IMAGES/"
 
 img1 = cv.imread(path + "rightimage.png")
 img2 = cv.imread(path + "leftimage.png")

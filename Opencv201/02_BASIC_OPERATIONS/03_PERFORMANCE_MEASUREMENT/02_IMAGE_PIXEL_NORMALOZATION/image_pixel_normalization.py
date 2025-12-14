@@ -2,10 +2,9 @@
 import cv2 as cv
 import numpy as np
 
-path="C:/Users/yigit/Desktop/python/02_BASIC_OPERATIONS/03_PERFORMANCE_MEASUREMENT/02_IMAGE_PIXEL_NORMALOZATION/"
+path="C:/Users/yigit/Desktop/Ders/python/Opencv201/02_BASIC_OPERATIONS/03_PERFORMANCE_MEASUREMENT/02_IMAGE_PIXEL_NORMALOZATION/"
 src= cv.imread(path+"opencv.png")
 
-print(src.shape)
 
 gray = cv.cvtColor(src, cv.COLOR_BGR2GRAY)
 print(gray.shape)

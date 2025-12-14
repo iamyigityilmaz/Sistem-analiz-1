@@ -1,5 +1,5 @@
 import cv2 as cv
-path = "C:/Users/yigit/Desktop/python/02_BASIC_OPERATIONS/01_BASIC_OPERATIONS/02_GRAY_IMAGE/"
+path = "C:/Users/yigit/Desktop/Ders/python/Opencv201/02_BASIC_OPERATIONS/01_BASIC_OPERATIONS/02_GRAY_IMAGE/"
 
 img= cv.imread(path + "opencv.png")
 cv.imshow("colored",img)

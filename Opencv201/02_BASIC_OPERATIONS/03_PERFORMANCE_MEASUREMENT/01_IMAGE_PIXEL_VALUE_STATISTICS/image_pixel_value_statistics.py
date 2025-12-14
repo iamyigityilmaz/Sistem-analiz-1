@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-path="C:/Users/yigit/Desktop/python/02_BASIC_OPERATIONS/03_PERFORMANCE_MEASUREMENT/01_IMAGE_PIXEL_VALUE_STATISTICS/"
+path="C:/Users/yigit/Desktop/Ders/python/Opencv201/02_BASIC_OPERATIONS/03_PERFORMANCE_MEASUREMENT/01_IMAGE_PIXEL_VALUE_STATISTICS/"
 
 src = cv.imread(path + "gray_opencv.png", cv.IMREAD_GRAYSCALE)
 

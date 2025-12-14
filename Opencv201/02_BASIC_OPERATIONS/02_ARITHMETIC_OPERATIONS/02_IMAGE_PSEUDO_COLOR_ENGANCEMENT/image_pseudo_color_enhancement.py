@@ -1,5 +1,5 @@
 import cv2 as cv
-path= "C:/Users/yigit/Desktop/python/02_BASIC_OPERATIONS/02_ARITHMETIC_OPERATIONS/02_IMAGE_PSEUDO_COLOR_ENGANCEMENT/"
+path= "C:/Users/yigit/Desktop/Ders/python/Opencv201/02_BASIC_OPERATIONS/02_ARITHMETIC_OPERATIONS/02_IMAGE_PSEUDO_COLOR_ENGANCEMENT/"
 src=cv.imread(path+"labirent.jpg")
 cv.imshow("input",src)
 cv.waitKey(0)

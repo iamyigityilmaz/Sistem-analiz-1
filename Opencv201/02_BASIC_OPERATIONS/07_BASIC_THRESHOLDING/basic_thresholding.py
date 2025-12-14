@@ -1,6 +1,6 @@
 import cv2 as cv
 
-path = "C:/Users/yigit/Desktop/python/02_BASIC_OPERATIONS/07_BASIC_THRESHOLDING/"
+path = "C:/Users/yigit/Desktop/Ders/python/Opencv201/02_BASIC_OPERATIONS/07_BASIC_THRESHOLDING/"
 src=cv.imread(path+"work.jpg")
 
 T = 127#Threshold değeri (Threshold (eşikleme), bir görüntüde pikselleri belirlenen/otomatik bir eşik değerine göre iki sınıfa (örn. nesne–arkaplan) ayırarak basitleştirme ve segmentasyon yapan tekniktir.)

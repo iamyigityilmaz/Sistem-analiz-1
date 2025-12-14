@@ -1,7 +1,7 @@
 import cv2 as cv
 import os
 
-path = "C:/Users/yigit/Desktop/python/02_BASIC_OPERATIONS/01_BASIC_OPERATIONS/01_LOAD_IMAGE/"
+path = "C:/Users/yigit/Desktop/Ders/python/Opencv201/02_BASIC_OPERATIONS/01_BASIC_OPERATIONS/01_LOAD_IMAGE/"
 img = cv.imread(path + "akdeniz.jpg")
 
 print(type(img))

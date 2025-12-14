@@ -1,6 +1,6 @@
 import cv2 as cv
 import numpy as np
-path="C:/Users/yigit/Desktop/python/02_BASIC_OPERATIONS/02_ARITHMETIC_OPERATIONS/03_IMAGE_PIXEL_OPRATION/"
+path="C:/Users/yigit/Desktop/Ders/python/Opencv201/02_BASIC_OPERATIONS/02_ARITHMETIC_OPERATIONS/03_IMAGE_PIXEL_OPRATION/"
 
 #resim1(siyah zemin üzerine sarı renk) np.zeros() tamamen 0 değerleriyle (siyah piksellerle) dolu bir boş görüntü veya matris oluşturu
 src1=np.zeros(shape=(400,400,3),dtype=np.uint8)

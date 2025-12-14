@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-path = "C:/Users/yigit/Desktop/python/02_BASIC_OPERATIONS/02_ARITHMETIC_OPERATIONS/01_PIXEL_ARITHMETIC_OPERATIONS/"
+path = "C:/Users/yigit/Desktop/Ders/python/Opencv201/02_BASIC_OPERATIONS/02_ARITHMETIC_OPERATIONS/01_PIXEL_ARITHMETIC_OPERATIONS/"
 
 src1=cv.imread(path+"test0.png")
 src2=cv.imread(path+"test1.png")

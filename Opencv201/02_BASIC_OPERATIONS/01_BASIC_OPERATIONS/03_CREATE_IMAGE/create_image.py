@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from holoviews.plotting.bokeh.styles import font_size
 
-path = "C:/Users/yigit/Desktop/python/02_BASIC_OPERATIONS/01_BASIC_OPERATIONS/03_CREATE_IMAGE/"
+path = "C:/Users/yigit/Desktop/Ders/python/Opencv201/02_BASIC_OPERATIONS/01_BASIC_OPERATIONS/03_CREATE_IMAGE/"
 
 img = cv.imread(path + "opencv.png")
 cv.namedWindow("image_create", cv.WINDOW_AUTOSIZE)

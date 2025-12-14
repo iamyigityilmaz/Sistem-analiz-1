@@ -13,12 +13,12 @@ def process(image, opt=1):
     if opt == 0:
         dst = cv.bitwise_not(image)  # renkleri ters çevir
     if opt == 1:
-        dst = cv.GaussianBlur(image,(0,0),15) # Gaussian blur: gürültüyü azaltır, detayları yumuşatır (σ=15)
+        dst = cv.GaussianBlur(image,(0,0),15) # Gaussian blur: glürültüyü azatır, detayları yumuşatır
     if opt == 2:
         dst = cv.Canny(image,100,200) # Canny edge: kenar algılama; 100/200 alt-üst eşikler (tercihen gri görüntüde)
     return dst
     return dst
-index = 2
+index = 0
 while True:
     ret, frame = capture.read()
     if ret == True:
